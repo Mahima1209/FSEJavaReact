@@ -1,6 +1,7 @@
-package com.backend.repository;
+package com.backend.fse.repository;
 
-import com.backend.model.Account;
+
+import com.backend.fse.model.Account;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

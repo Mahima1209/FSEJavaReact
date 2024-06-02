@@ -1,4 +1,4 @@
-package com.backend.model;
+package com.backend.fse.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -20,5 +20,5 @@ public class Account {
     private String userId;
     private String accountType;
     private String balance;
-    private String createdAt;
+
 }
