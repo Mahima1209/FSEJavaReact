@@ -1,5 +1,4 @@
-package com.backend.model;
-
+package com.backend.fse.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -9,18 +8,18 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table(name = "Users")
-public class User {
+@Table(name = "Transactions")
+public class Transaction {
     @Id
-    private String userId;
-    private String username;
-    private String password;
-    private String email;
-    private String createdAt;
-
+    private String transactionId;
+    private String accountId;
+    private String amount;
+    private String transactionType;
+    private String transactionDate;
 }
