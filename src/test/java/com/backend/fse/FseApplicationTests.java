@@ -10,4 +10,9 @@ class FseApplicationTests {
 	void contextLoads() {
 	}
 
+	@Test
+	void main() {
+		FseApplication.main(new String[] {});
+	}
+
 }
